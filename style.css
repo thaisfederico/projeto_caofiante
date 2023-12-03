@@ -3,6 +3,13 @@ header{
     width: 100%;
     top:0;
 }
+footer{
+    position: absolute;
+    width: 100%;
+    margin-bottom: 0;
+    background-color: #5987FE;
+    background-size: cover;
+}
 body{
     background: url("Rectangle1.png"), lightgray;
     background-size: cover;
