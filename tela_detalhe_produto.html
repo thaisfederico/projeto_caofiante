@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>CaoFiante | Cadastro</title>
+        <style type="text/css"></style>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <header>
+            <table class="acessoRapido">
+                <tr>
+                    <th><img  class="acessoRapido" src="logo.png"></th>
+                    <th><a href="tela_caofiante.html">Início</a></th>
+                    <th><a href="tela_produtos.html">Produtos</a></th>
+                    <th><a href="tela_pedidos.html">Pedidos</a></th>
+                    <th><a href="tela_login.html">Tutor</a></th>
+                </tr>
+            </table>
+        </header>
+        <nav>
+            <div class="semFundo"><button class="semFundo" type="button">Voltar</button></div>
+            <h1 class="titulo produto">Produtos</h1>
+            <div class="divDetalheImg produto">
+                <div class="divDetalheImg slider-container">
+                    <div class="divDetalheImg slider">
+                        <div class="divDetalheImg slide"><img src="image1.png"></div>
+                        <div class="divDetalheImg slide"><img src="image1_ang1.png"></div>
+                        <div class="divDetalheImg slide"><img src="image1_ang2.png"></div>
+                        <div class="divDetalheImg slide"><img src="image1_ang3.png"></div>
+                    </div>
+                    <button class="prev" onclick="changeSlide(-1)">❮</button>
+                    <button class="next" onclick="changeSlide(1)">❯</button>
+                </div>
+                <script src="script-slide.js"></script>
+            </div>
+            <div class="divDetalhe descProduto">Ração GoldeN Seleção Natural - Cães Adultos - Frango e Arroz - 3,0kg</div>
+            <div class="divDetalhe descricao">Descrição</div>
+            <div class="divDetalhe descTexto">Ração seca da marca GoldeN Seleção Natural destinada a cães adultos. Feito com vegetais. Pacote com peso líquido de 3,0kg.</div>
+            <div class="divDetalhe preco">Preço</div>
+            <div class="divDetalhe valor">R$ 62,35</div>
+            <div class="divDetalhe total">Informe o CPF para verificar a sua região</div>
+            <button class="divDetalhe" type="button">Adicionar ao Carrinho</button>
+        </nav>
+        <section></section>
+        <footer></footer>
+    </body>
+</html>
