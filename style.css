@@ -4,9 +4,9 @@ header{
     top:0;
 }
 footer{
-    position: absolute;
+    position: fixed;
     width: 100%;
-    margin-bottom: 0;
+    bottom: 0;
     background-color: #5987FE;
     background-size: cover;
 }
